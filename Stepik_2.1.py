@@ -48,7 +48,6 @@ try:
     browser.find_element(By.ID, "robotsRule").click()
     button = browser.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
 
-
 finally:
   time.sleep(10)
   browser.quit()

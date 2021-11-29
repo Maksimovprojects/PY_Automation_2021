@@ -19,7 +19,6 @@ EmailSelector = 'input[name = email]'
 ChooseFileSelector = 'input[name = file]'
 SubmitButtonSelector = 'button[type=submit]'
 
-
 try:
     browser = webdriver.Chrome()
     browser.get(link)
@@ -30,8 +29,11 @@ try:
     InputLastName.send_keys(LastNameData)
     InputEmailData = browser.find_element(By.CSS_SELECTOR, EmailSelector)
     InputEmailData.send_keys(EmailData)
+    browser.find_element(By.xpath)
 
-    # testfile.txt
+
+
+    #Create testfile.txt
     with open('testfile.txt', 'w') as file1:
         file1.write('text for mls 228')
     print("file 'testfile.txt' created")
