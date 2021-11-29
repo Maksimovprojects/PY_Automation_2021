@@ -32,9 +32,9 @@ try:
     InputEmailData.send_keys(EmailData)
 
     # testfile.txt
-    with open('testfile.txt', 'w') as file:
-        file.write('text for mls 228')
-    print("file created")
+    with open('testfile.txt', 'w') as file1:
+        file1.write('text for mls 228')
+    print("file 'testfile.txt' created")
 
     # Find path to text.txt file
     current_dir = os.path.abspath(os.path.dirname(__file__))  # получаем путь к директории текущего исполняемого файла
@@ -52,9 +52,9 @@ try:
     # Click Submit for getting a code
     SubmitButton = browser.find_element(By.CSS_SELECTOR, SubmitButtonSelector).click()
 
-    #remove text.txt file
+    #remove testfile.txt file
     os.remove(file_path)
-    print("file deleted")
+    print("file 'testfile.txt' deleted")
 
 finally:
     # ожидание чтобы визуально оценить результаты прохождения скрипта
