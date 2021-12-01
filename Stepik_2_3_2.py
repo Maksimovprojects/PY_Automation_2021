@@ -13,7 +13,7 @@ try:
   button = browser.find_element(By.CSS_SELECTOR, "button[type='submit']")
   button.click()
   confirm = browser.switch_to.alert #switch to pop-up Alert window
-  confirm.accept()
+  confirm.accept() # accept
   x = browser.find_element(By.ID, "input_value").text
   y = calc(x)
   input_fieid = browser.find_element(By.ID, "answer")
