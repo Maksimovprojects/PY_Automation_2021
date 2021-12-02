@@ -1,4 +1,1 @@
-```python
-s = "Подсветка Python"
-print s
-```
+Script scenarios of testing STEPIK tasks
