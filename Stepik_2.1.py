@@ -41,9 +41,10 @@ try:
     treasure = browser.find_element(By.ID, "treasure")
     Find_value_x_inTreasure = treasure.get_attribute("valuex") #true or false
     x = treasure.get_attribute("valuex")
-    y = calc(x)
+    print(x)
+
     input_fieid = browser.find_element(By.ID, "answer")
-    input_fieid.send_keys(y)
+    input_fieid.send_keys(calc(x))
     browser.find_element(By.ID, "robotCheckbox").click()
     browser.find_element(By.ID, "robotsRule").click()
     button = browser.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
