@@ -4,7 +4,7 @@ import unittest
 
 class TestStepikWebSite(unittest.TestCase):
 
-    def test_RegisterForm1(self):
+    def RegisterForm_NameFirstEmailPhoneAddress(self):
         browser = webdriver.Chrome()
         browser.get("http://suninjuly.github.io/registration1.html")
         InputFirstName = browser.find_element(By.XPATH, '//input[@placeholder="Input your first name"]')
@@ -19,7 +19,7 @@ class TestStepikWebSite(unittest.TestCase):
         self.assertEqual(welcome_text, "Congratulations! You have successfully registered!")
         browser.quit()
 
-    def test_RegisterForm2(self):
+    def RegisterForm_NameFirstLastEmailPhoneAddress(self):
         browser = webdriver.Chrome()
         browser.get("http://suninjuly.github.io/registration1.html")
         InputFirstName = browser.find_element(By.XPATH, '//input[@placeholder="Input your first name"]')
