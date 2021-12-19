@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="eeba1da9-c0fd-41b6-bbb3-c72360fb6df3" name="Changes" comment="22nov_upd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stepik_3_5_3_DiselectionTests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stepik_3_5_3_DiselectionTests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
