@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeba1da9-c0fd-41b6-bbb3-c72360fb6df3" name="Changes" comment="22nov_upd">
-      <change afterPath="$PROJECT_DIR$/test_Stepik_3_5_5_TASK.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_Stepik_3_5_6_TASK.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_Stepik_3_5_4_MarkXFail.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_Stepik_3_5_4_MarkXFail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_Stepik_3_6_1Fixture_parametrize.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_Stepik_3_6_1Fixture_parametrize.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +47,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_Stepik_3_5_4_MarkXFail">
-    <configuration name="Decorators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Stepik_2_4_2">
+    <configuration name="Stepik_2_4_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -62,7 +60,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Decorators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stepik_2_4_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="basic assert test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Stepik_3_6_2Task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -104,7 +102,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic assert test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stepik_3_6_2Task.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Stepik_2_4_2" />
+        <item itemvalue="Python.Stepik_3_6_2Task" />
         <item itemvalue="Python.test_Stepik_3_5_4_MarkXFail" />
         <item itemvalue="Python.test_Stepik_3_5_1_MarkingTests" />
         <item itemvalue="Python.Stepik_3_4_0" />
-        <item itemvalue="Python.Decorators" />
-        <item itemvalue="Python.basic assert test" />
       </list>
     </recent_temporary>
   </component>

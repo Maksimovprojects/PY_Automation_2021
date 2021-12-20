@@ -25,8 +25,8 @@ def browser():
 #     assert eval(test_input) == expected
 
 
-# --------------------------------------------------------------
-# test 2
+# --------------------------------------------------------------2
+# # test 2
 # add mark.parametrize decorator to Class TestLogin
 @pytest.mark.parametrize('language', ["ru", "en-gb"])
 class TestLogin:
