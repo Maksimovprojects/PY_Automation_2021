@@ -11,7 +11,6 @@ No_button = "//button[contains(text(), 'No')]"
 LoginForm = "//h1[contains(text(), 'Login to Payrow')]"
 Business_Form = "//h1[contains(text(), 'Business account')]"
 Disclaimer_Form = "//h1[contains(text(),'If you are not')]"
-
 # URL
 Login_Url = "https://payrow.com/main/auth/sign-in"
 Main_Page_Url = "https://payrow.com/business"
